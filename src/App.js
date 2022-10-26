@@ -4,6 +4,8 @@ import './App.css';
 import bootstrap from 'bootstrap' 
 import Instalacion from './Java/Instalacion/Instalacion'
 import Ides_Java from './Java/Ides/Ides';
+import Basico_java from './Java/Programacion/Nocion/basico-java';
+import Clase_java from './Java/Programacion/Clases/clase_java';
 import { Link, Route, Routes  } from 'react-router-dom';
 
 function App() {
@@ -59,12 +61,12 @@ function App() {
                                     </a>
                                     <ul class="dropdown-menu dropdown-submenu dropdown-menu-dark dropend">
                                         <li>
-                                            <a class="dropdown-item" href="Java/java-notions.html"
+                                            <a class="dropdown-item" href="/nocion-java"
                                                 title="Algoritmos &#013Variables y constantes &#013Estructuras de control &#013Metodos y funciones &#013Comentarios &#013Api de Java">Nociones
                                                 Basicas</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="Java/java-class.html"
+                                            <a class="dropdown-item" href="/clases-java"
                                                 title="Estructura paquetes y clases &#013Math &#013Scanner &#013Files &#013Gson">Clases</a>
                                         </li>
                                         <li>
@@ -185,6 +187,8 @@ function App() {
           <Routes>
             <Route path="/instalacion-java" element={<Instalacion />} />
             <Route path="/ides-java" element={<Ides_Java />} />
+            <Route path="/nocion-java" element={<Basico_java />} />
+            <Route path="/clases-java" element={<Clase_java />} />
           </Routes>
         </div>
       </div>
