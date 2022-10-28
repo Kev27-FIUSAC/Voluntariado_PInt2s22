@@ -142,8 +142,7 @@ export default class Clase_java extends Component {
     
                         <h4 id="Math-class-list">CLASE MATH EXPONENCIALES Y LOGARITMICAS</h4>
                         
-                            {/*<img src="../img/Clase_math_logaritmos.png" class="img-fluid" alt="..." height=”600”
-                                                        width=600”>*/}
+                        <img src="https://i.ibb.co/hyLQymW/Clase-math-logaritmos.png" class="img-fluid" alt="Clase-math-logaritmos" border="0"/>
                        
     
                         <h4 id="Math-class-list">CLASE MATH EN POTENCIA Y RAIZ CUADRADA</h4>
@@ -151,8 +150,7 @@ export default class Clase_java extends Component {
                             forma sacar la raíz de un número, únicamente usando funciones como “Math.pow” para potenciar un
                             número y “Math.sqrt” para sacar la raíz cuadrada de un número. </label>
                         
-                           {/*<img src="../img/Clase_math_Potencia_raiz.png" class="img-fluid" alt="..." height=”600”
-                                                       width=600”>*/}
+                            <img src="https://i.ibb.co/2jzPJny/Clase-math-Potencia-raiz.png" class="img-fluid" alt="Clase-math-Potencia-raiz" border="0"/>
                        
     
                         <h4 id="Math-class-list">CLASE MATH EN APROXIMACION</h4>
@@ -161,16 +159,14 @@ export default class Clase_java extends Component {
                             queremos sin la necesidad de aproximar se utiliza la función “floor” como por ejemplo:
                             </label>
                         
-                            {/*<img src="../img/Clase_math_Aproximacion.png" class="img-fluid" alt="..." height=”600”
-                                                        width=600”>*/}
+                            <img src="https://i.ibb.co/Nx6FxnJ/Clase-math-Aproximacion.png" class="img-fluid" alt="Clase-math-Aproximacion" border="0"/>
                         
     
                         <h4 id="Math-class-list">CLASE MATH EN NUMEROS RANDOM</h4>
                         <label>De igual forma la clase Math nos permite por medio de una función llamada “Random” en el cual
                             como lo dice su nombre para implementar números variados como por ejemplo: </label>
                         
-                            {/*<img src="../img/Clase_math_random.png" class="img-fluid" alt="..." height=”600”
-                                                        width=600”>*/}
+                            <img src="https://i.ibb.co/CKRH4cR/Clase-math-random.png" class="img-fluid" alt="Clase-math-random" border="0"/>
                         
     
     
@@ -191,7 +187,7 @@ export default class Clase_java extends Component {
                         </label>
                         
     
-                            {/*<img src="../img/Clase_Scanner.png" class="img-fluid" alt="..." height=”600” width=600”>*/}
+                        <img src="https://i.ibb.co/4gdkvdw/Clase-Scanner.png" class="img-fluid" alt="Clase-Scanner" border="0"/>
                         
     
                        
@@ -210,7 +206,7 @@ export default class Clase_java extends Component {
                         </label>
                      
     
-                            {/*<img src="../img/Clase_Calendar.png" class="img-fluid" alt="..." height=”600” width=600”>*/}
+                        <img src="https://i.ibb.co/yP2Xxtq/Clase-Calendar.png" class="img-fluid" alt="Clase-Calendar" border="0"/>
                         
     
                         </p>
@@ -228,7 +224,7 @@ export default class Clase_java extends Component {
                         </label>
                         
     
-                            {/*<img src="../img/Clase_File.png" class="img-fluid" alt="..." height=”600” width=600”>*/}
+                        <img src="https://i.ibb.co/4Vv9CFw/Clase-File.png" class="img-fluid" alt="Clase-File" border="0"/>
                         
     
                         </p>
@@ -258,7 +254,7 @@ export default class Clase_java extends Component {
                         <br></br>
                         <br></br>
                         Una vez tengas hecho lo anterior, veamos como usarlo:
-                        {/*<img src="../img/JsonSimple.png" class="img-fluid">*/}
+                        <img src="https://i.ibb.co/L5GNjRX/Json-Simple.png"  class="img-fluid" alt="Json-Simple" border="0"/>
                         Analizar este codigo es la oportunidad perfecta de entender un poco 
                         la programación orientada a objetos:<br></br>
                         <br></br>
@@ -272,7 +268,7 @@ export default class Clase_java extends Component {
                         almacenar nuestra colección de objetos que convertimos con nuestro traductor. 
                         <br></br>
                         La clase Persona utilizada para este ejemplo es la siguiente:
-                        {/*<img src="../img/Clase_Persona.png" class="img-fluid">*/}
+                        <img src="https://i.ibb.co/LSLLHzC/Clase-Persona.png" class="img-fluid" alt="Clase-Persona" border="0"/>
                         Observa el constructor de la clase Persona y también observa como utilizamos 
                         ese constructor dentro del ejemplo de Json Simple, se encuentra hasta abajo de la imagen.<br></br>
                         
