@@ -27,14 +27,15 @@ export default class Basico_java extends Component {
                             </p>
                         </div>
     
-                        <h4 id="Algoritmo-JavaNotions-list">Algoritmos</h4>
+                        <h3 id="Algoritmo-JavaNotions-list">Algoritmos</h3>
                         <p>
                             Un algoritmo es un procedimiento (método) para resolver problemas. Este procedimiento puede ser
                             matemático o lógico. El método permite dividir el problema en una serie de pasos sencillos. </p>
     
     
                         <p>
-                        <h4>Características de un algoritmo</h4>
+                            <br/>
+                        <h3>Características de un algoritmo</h3>
                         </p>
                         <ul>
                             <li><b>Preciso:</b> esto es debido a que se indica el orden en que se debe realizar cada paso
@@ -43,9 +44,9 @@ export default class Basico_java extends Component {
                                 mismo resultado siempre. </li>
                             <li><b>Finito:</b> esto es debido a que el algoritmo debe poder terminar en algún momento. </li>
                         </ul>
-    
+                        <br/>
                         <p>
-                        <h4>Lenguajes Algorítmicos</h4>
+                        <h3>Lenguajes Algorítmicos</h3>
                         </p>
     
                         <ul>
@@ -55,8 +56,9 @@ export default class Basico_java extends Component {
                                 algoritmo (pseudocódigo).</li>
                         </ul>
     
+                        <br/>
                         <p>
-                        <h4>Diagramas de flujo</h4>
+                        <h3>Diagramas de flujo</h3>
                         </p>
                         <p>
                             Un diagrama de flujo es un diagrama que describe un proceso, sistema o algoritmo informático. Se
@@ -64,8 +66,10 @@ export default class Basico_java extends Component {
                             procesos que suelen ser complejos en diagramas claros y fáciles de comprender.
                         </p>
                         <img src="https://i.ibb.co/f1Bfbn5/diagramaflujo.jpg" class="img-fluid" alt="diagramaflujo"/>
+                        <br/>
+                        <br/>
                         <p>
-                        <h4>Pseudocodigo</h4>
+                        <h3>Pseudocodigo</h3>
                         </p>
                         <p>
                             El pseudocódigo es una forma de expresar los distintos pasos que va a realizar un programa, de
@@ -76,8 +80,10 @@ export default class Basico_java extends Component {
                             falso (pseudo = falso), es un código escrito para que lo entienda el ser humano y no la máquina
                         </p>
                         <img src="https://i.ibb.co/NrqH0tf/pseudocodigo.png" class="img-fluid" alt="pseudocodigo" border="0"/>
+                        <br/>
+                        <br/>
                         <p>
-                        <h4>Sintaxis basica en JAVA</h4>
+                        <h3>Sintaxis basica en JAVA</h3>
                         </p>
                         <p>
                             Identificadores: Un identificador es un nombre que identifica a una variable, a un método o
@@ -93,8 +99,9 @@ export default class Basico_java extends Component {
                             <li>No se pueden utilizar las palabras reservadas como identificadores. </li>
                         </ul>
                         </p>
+                        <br/>
                         <p>
-                        <h4>Operadores de incermento y decremento</h4>
+                        <h3>Operadores de incermento y decremento</h3>
                         </p>
                         <p>
                             Java tiene un operador que permite abreviar la tan necesaria instrucción de incrementar o
@@ -105,23 +112,29 @@ export default class Basico_java extends Component {
                         <img src="https://i.ibb.co/h8P3ySL/operador1.png" class="img-fluid" alt="operador1" border="0"/>
                         <img src="https://i.ibb.co/fMnN8Xx/operador2.png" class="img-fluid" alt="operador2" border="0"/>
                         <img src="https://i.ibb.co/2j6vtxh/operador3.png" class="img-fluid" alt="operador3" border="0"/>
+                        <br/>
+                        <br/>
                         <p>
-                        <h4>Operadores Relacionales</h4>
+                        <h3>Operadores Relacionales</h3>
                         </p>
                         <p>
                             Los operadores relacionales son símbolos que se usan para comparar dos valores. Si el resultado
                             de la comparación es correcto la expresión considerada es verdadera, en caso contrario es falsa.
                         </p>
                         <img src="https://i.ibb.co/170HDTs/operador4.png" class="img-fluid" alt="operador4" border="0"/>
+                        <br/>
+                        <br/>
                         <p>
-                        <h4>Operadores Logicos</h4>
+                        <h3>Operadores Logicos</h3>
                         </p>
                         <p>
                             Son los operadores que funcionan con valores booleanos; los valores son verdaderos o falsos.
                         </p>
                         <img src="https://i.ibb.co/TwBd99M/operador5.png" class="img-fluid" alt="operador5" border="0"/>
+                        <br/>
+                        <br/>
                         <p>
-                            <h4>Variables y constantes</h4>
+                            <h3>Variables y constantes</h3>
                         </p>
                         <p>
                             Los datos procesados ​​en el programa toman dos formas comunes: constantes y variables.
@@ -132,8 +145,10 @@ export default class Basico_java extends Component {
                             tipos de constantes tienen diferentes métodos de representación, y las variables también deben
                             indicar su tipo antes de su uso.
                         </p>
+                        <br/>
+                        <br/>
                         <p>
-                            <h4>Constantes</h4>
+                            <h3>Constantes</h3>
                         </p>
                         <p>
                             En Java, se utiliza la palabra clave final para indicar que una variable debe comportarse como
@@ -144,19 +159,25 @@ export default class Basico_java extends Component {
                             ejemplo:
                         </p>
                         <img src="https://i.ibb.co/x7NjDZ9/java-constante.png" class="img-fluid" alt="java-constante" border="0"/>
+                        <br/>
+                        <br/>
                         <p>
-                            <h4>Ambito de una variable</h4>
+                            <h3>Ambito de una variable</h3>
                         </p>
                         <p>
                             Los bloques de sentencias compuestas en Java se delimitan con dos llaves. Las variables de Java sólo son válidas desde el punto donde están declaradas hasta el final de la sentencia compuesta que la engloba. Se pueden anidar estas sentencias compuestas, y cada una puede contener su propio conjunto de declaraciones de variables locales. Sin embargo, no se puede declarar una variable con el mismo nombre que una de ámbito exterior.
                         </p>
                         <img src="https://i.ibb.co/72TQspr/java-ambito.png" class="img-fluid" alt="java-ambito" border="0" />
-                        <h4>Tipos de Variables</h4>
+                        <br/>
+                        <br/>
+                        <h3>Tipos de Variables</h3>
                         <img src="https://i.ibb.co/9WnTtFz/java-variables.png" class="img-fluid" alt="java-variables" border="0" />
-    
-                        <h4>Como se decalara una variable </h4>
+                        <br/>
+                        <br/>
+                        <h3>Como se decalara una variable </h3>
                         <img src="https://i.ibb.co/SdhG30w/java-variables-declaradas.png" class="img-fluid" alt="java-variables-declaradas" border="0"/>
-                        <h4>Estructuras de control</h4>
+                        <br/>
+                        <h3>Estructuras de control</h3>
                         <p>
                             Las estructuras de control en java las emplearemos para modificar el flujo secuencial de un
                             programa. Esto es, el orden en el que se van ejecutando las instrucciones de este.
@@ -166,44 +187,50 @@ export default class Basico_java extends Component {
                             programa, seguirán este flujo secuencial para ejecutar las instrucciones. Los bloques de
                             instrucciones, estarán delimitados por corchetes.
                         </p>
-    
+                            <br/>
+                        <br/>
                         <p>
-                        <h4>If-else</h4>
+                        <h3>If-else</h3>
                         </p>
                         <img src="https://i.ibb.co/CwVF9Db/java-if-else.png" class="img-fluid" alt="java-if-else" border="0" />
+                        <br/>
                         <p>
-                        <h4>If-else if</h4>
+                        <h3>If-else if</h3>
                         </p>
                         <img src="https://i.ibb.co/wcSFS2W/java-If-else-if.png" class="img-fluid" alt="java-If-else-if" border="0"/>
+                        <br/>
                         <p>
-                        <h4>For</h4>
+                        <h3>For</h3>
                         </p>
                         <img src="https://i.ibb.co/DM2zspD/java-for.png" class="img-fluid" alt="java-for" border="0"/>
+                        <br/>
                         <p>
-                        <h4>Switch</h4>
+                        <h3>Switch</h3>
                         </p>
                         <img src="https://i.ibb.co/qDYH0Sy/java-switch.png" class="img-fluid" alt="java-switch" border="0"/>
+                        <br/>
                         <p>
-                        <h4>While</h4>
+                        <h3>While</h3>
                         </p>
                         <img src="https://i.ibb.co/SfRZ93z/java-while.png" class="img-fluid" alt="java-while" border="0"/>
+                        <br/>
                         <p>
-                        <h4>Do - While</h4>
+                        <h3>Do - While</h3>
                         </p>
                         <img src="https://i.ibb.co/gw7gxVY/js-do-while.png" class="img-fluid" alt="js-do-while" border="0"/>
     
     
-    
-                        <h4 id="MyF-JavaNotions-list">Metodos y funciones</h4>
+                        <br/>
+                        <h3 id="MyF-JavaNotions-list">Metodos y funciones</h3>
                         <p>
                         <div class="form-group">
-                            <h5> ¿Qué es una función?</h5>
+                            <h4> ¿Qué es una función?</h4>
                             <label><p>Las funciones son diseñadas para realizar tareas específicas: toman una lista de valores
                                 llamados argumento y devuelven un único valor.</p></label>
                         </div>
                         <br></br>
                         <div class="form-group">
-                            <h5 class="text-white bg-dark">FUNCIONES EN JAVA</h5>
+                            <h4 class="text-white bg-dark">FUNCIONES EN JAVA</h4>
                             <h5>Declaración de funciones: </h5>
                             <label><p>Una función como tal sub-algoritmo o sub-programa tiene una constitución similar a los
                                 algoritmos, por consiguiente, constará de una cabecera que comenzará con el tipo del valor
@@ -211,7 +238,7 @@ export default class Basico_java extends Component {
                                 función.</p></label>
                                 <img src="https://i.ibb.co/Z13PQ0H/Funcion-1.png" class="img-fluid" alt="Funcion-1" border="0"/>
                             <p>La sentencia devolver (return) termina inmediatamente la función en la cual se ejecuta.</p>
-    
+                            <br/>
                             <h5>Invocación a las funciones: </h5>
                             <label><p>Cada vez que se llama a una función desde el algoritmo principal se establece
                                 automáticamente una correspondencia entre los parámetros formales y los parámetros actuales.
@@ -220,11 +247,12 @@ export default class Basico_java extends Component {
                                 derecha entre los parámetros formales y los actuales. Una función puede ser llamada de la
                                 forma siguiente:</p></label>
                                 <img src="https://i.ibb.co/R0GwYd9/LLamado-Funcion-1.png" class="img-fluid" alt="LLamado-Funcion-1" border="0"/>
-    
+                            <br/>
                             <h5 class="text-white bg-dark">METODOS EN JAVA</h5>
                             <label><p>Los métodos son subrutinas que manipulan los datos definidos por la clase y, en muchos
                                 casos, brindan acceso a esos datos. En la mayoría de los casos, otras partes de tu programa
                                 interactuarán con una clase a través de sus métodos.</p></label>
+                            <br/>
                             <h5>¿Cómo se escribe un método?</h5>
                             <label><p>Un método tendrá paréntesis después de su nombre. Por ejemplo, si el nombre de un método
                                 es carro, mensaje, comida, etc. Se escribirá mensaje (), carro (), comida (), cuando su
@@ -241,11 +269,12 @@ export default class Basico_java extends Component {
                                 comas. Los parámetros son esencialmente variables que reciben el valor de los argumentos
                                 pasados al método cuando se llama. Si el método no tiene parámetros, la lista de parámetros
                                 estará vacía.</p></label>
+                            <br/>
                             <h5>LLamado del método a la clase principal:</h5>
                             <img src="https://i.ibb.co/Vptp1q7/LLamado-M-todo-1.png" class="img-fluid" alt="LLamado-M-todo-1" border="0"/>
                             <h2>Otro tipo de método muy comun en la programación es la siguiente:</h2>
                             <img src="../img/Metodo_2.png" class="img-fluid" alt="..."/>
-    
+                            <br/>
                             <h5>Ejemplo de un programa utilizando metodos y funciones:</h5>
                             <label><p>Este ejercicio concistio en crear funciones las cuales contendran operaciones suma, resta
                                 y multiplicación. Se creeara un método donde se ejecutaran e imprimiran los resultados de
@@ -255,10 +284,10 @@ export default class Basico_java extends Component {
                         </div>
                         <br></br>
                         </p>
-                        <h4 id="Comentarios-JavaNotions-list">Comentarios</h4>
+                        <h3 id="Comentarios-JavaNotions-list">Comentarios</h3>
                         <p>
                         <div class="form-group">
-                            <h5> ¿Qué es un comentario?</h5>
+                            <h4> ¿Qué es un comentario?</h4>
                             <label>Conocido también como documentación interna es la que se acompaña en el código o programa
                                 fuente y se realiza a base de comentarios significativos. <p>Estos comentarios se
                                     representan con diferentes notaciones, según el tipo de lenguaje de programación: </p>
@@ -266,19 +295,20 @@ export default class Basico_java extends Component {
                         </div>
                         <br></br>
                         <div class="form-group">
-                            <h5 class="text-white bg-dark">TIPOS DE COMENTARIOS</h5>
+                            <h4 class="text-white bg-dark">TIPOS DE COMENTARIOS</h4>
                             <h5>Visual Basic 6 / VB .NET</h5>
                             <label><p>1. Los comentarios utilizan un apóstrofe simple y el compilador ignora todo lo que viene
                                 después de ese carácter.</p></label>
                                 <img src="https://i.ibb.co/MPBZBpd/Comentario-VB.png" class="img-fluid" alt="Comentario-VB" border="0"/>
     
+                            <br/>
                             <h5>C/C++ y C#</h5>
                             <label><p>Existen dos formatos de comentarios en los lenguajes C/C# y C++:</p><p>1. Comentarios de una
                                 línea (comienzan con el carácter //)</p><p>2. Comentarios multilínea (comienzan con los
                                 caracteres /* y terminan con los caracteres */, todo lo encerrado entre ambos juegos de
                                 caracteres son comentarios)</p></label>
                                 <img src="https://i.ibb.co/51293yW/Comentario-C.png" class="img-fluid" alt="Comentario-C" border="0" />
-    
+                            <br/>
                             <h5>Java</h5>
                             <label><p>Existen 3 forma de cometar en Java, la que es por documentación, una sola linea y
                                 multilinea:</p><p>1. Comentarios por documentación de clases: Esta parte es donde va el nombre
