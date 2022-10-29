@@ -35,7 +35,7 @@ function App() {
                                         </svg> Java
                                     </a>
                                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="/instalacion-java">Instalación</a></li>
+                                        <li><a class="dropdown-item" href="https://kev27-fiusac.github.io/Voluntariado_PInt2s22/instalacion-java">Instalación</a></li>
                                         <li><a class="dropdown-item" href="/ides-java">IDES</a></li>
                                         <li>
                                             <a class="dropdown-item">
@@ -125,7 +125,7 @@ function App() {
                   <div class="container-fluid">
                       <br></br>
                       <Routes>
-            <Route path="/instalacion-java" element={<Instalacion />} />
+            <Route path="https://kev27-fiusac.github.io/Voluntariado_PInt2s22/instalacion-java" element={<Instalacion />} />
             <Route path="/ides-java" element={<Ides_Java />} />
             <Route path="/ides-python" element={<Ides_python />} />
             <Route path="/nocion-java" element={<Basico_java />} />
