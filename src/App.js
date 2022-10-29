@@ -36,7 +36,7 @@ function App() {
                                     </a>
                                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
                                         <li><Link class="dropdown-item"to="/Voluntariado_PInt2s22/instalacion-java">Instalación</Link></li>
-                                        <li><a class="dropdown-item" href="/Voluntariado_PInt2s22/ides-java">IDES</a></li>
+                                        <li><Link class="dropdown-item"to="/Voluntariado_PInt2s22/ides-java">Instalación</Link></li>
                                         <li>
                                             <a class="dropdown-item">
                                                 Programación <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
