@@ -36,7 +36,7 @@ function App() {
                                     </a>
                                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
                                         <li><Link class="dropdown-item"to="/Voluntariado_PInt2s22/instalacion-java">Instalación</Link></li>
-                                        <li><a class="dropdown-item" href="/ides-java">IDES</a></li>
+                                        <li><a class="dropdown-item" href="/Voluntariado_PInt2s22/ides-java">IDES</a></li>
                                         <li>
                                             <a class="dropdown-item">
                                                 Programación <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -47,18 +47,16 @@ function App() {
                                             </a>
                                             <ul class="dropdown-menu dropdown-submenu dropdown-menu-dark dropend">
                                                 <li>
-                                                    <a class="dropdown-item" href="/nocion-java"
-                                                        title="Algoritmos &#013Variables y constantes &#013Estructuras de control &#013Metodos y funciones &#013Comentarios &#013Api de Java">Nociones
-                                                        Basicas</a>
+                                                    
+                                                        <Link class="dropdown-item"to="/Voluntariado_PInt2s22/nocion-java">Nociones Básicas</Link>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="/clases-java"
-                                                        title="Estructura paquetes y clases &#013Math &#013Scanner &#013Files &#013Gson">Clases</a>
+                                                    
+                                                        <Link class="dropdown-item"to="/Voluntariado_PInt2s22/clases-java">Clases</Link>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="/poo-java"
-                                                        title="Objetos &#013Herencia &#013Polimorfismo &#013Abstracción &#013Encapsulamiento">POO
-                                                    </a>
+                                                    
+                                                    <Link class="dropdown-item"to="/Voluntariado_PInt2s22/poo-java">Programacion Orientada a Objetos</Link>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item">Java Swing <svg xmlns="http://www.w3.org/2000/svg"
@@ -69,10 +67,12 @@ function App() {
                                                     </svg> </a>
                                                     <ul class="dropdown-menu dropdown-submenu dropdown-menu-dark">
                                                         <li>
-                                                            <a class="dropdown-item" href="/componente-java">Componentes</a>
+                                                      
+                                                            <Link class="dropdown-item"to="/Voluntariado_PInt2s22/componente-java">Componentes</Link>
                                                         </li>
                                                         <li>
-                                                            <a class="dropdown-item" href="/layout-java">Layouts</a>
+                          
+                                                            <Link class="dropdown-item"to="/Voluntariado_PInt2s22/layout-java">Layout</Link>
                                                         </li>
                                                     </ul>
                                                 </li>
@@ -90,8 +90,11 @@ function App() {
                                         </svg> Python
                                     </a>
                                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="/instalacion-python">Instalación</a></li>
-                                        <li><a class="dropdown-item" href="/ides-python">IDES y Editores de texto</a>
+                                        <li>
+                                        <Link class="dropdown-item"to="/Voluntariado_PInt2s22/instalacion-python">Instalación</Link>
+                                        </li>
+                                        <li>
+                                        <Link class="dropdown-item"to="/Voluntariado_PInt2s22/ides-python">Editores de Texto y IDES</Link>
                                         </li>
                                         <li>
                                             <a class="dropdown-item" href="#">
@@ -103,15 +106,16 @@ function App() {
                                             </a>
                                             <ul class="dropdown-menu dropdown-submenu dropdown-menu-dark dropend">
                                                 <li>
-                                                    <a class="dropdown-item" href="/nocion-python">Nociones
-                                                        Basicas</a>
+                                                    
+                                                        <Link class="dropdown-item"to="/Voluntariado_PInt2s22/nocion-python">Nociones Basicas</Link>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="Python/python-reservedwords.html">Palabras
-                                                        Reservadas</a>
+                                                    
+                                                        <Link class="dropdown-item"to="/Voluntariado_PInt2s22/reservadas-python">Palabras Reservadas</Link>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="Python/python-flask.html">Flask </a>
+                                                    <Link class="dropdown-item"to="/Voluntariado_PInt2s22/flask">Flask</Link>
                                                 </li>
                                             </ul>
                                         </li>
@@ -123,13 +127,22 @@ function App() {
               </nav>
               <div>
                   <div class="container-fluid">
-                      <br></br>
-                      <Routes>
-                      <Route exact path='/Voluntariado_PInt2s22/instalacion-java' element={<Instalacion />} />
-           
-          </Routes>
-        </div>
-      </div>
+                        <br></br>
+                        <Routes>
+                            <Route exact path='/Voluntariado_PInt2s22/instalacion-java' element={<Instalacion />} />
+                            <Route exact path='/Voluntariado_PInt2s22/ides-java' element={<Ides_Java />} />
+                            <Route exact path='/Voluntariado_PInt2s22/nocion-java' element={<Basico_java />} />
+                            <Route exact path='/Voluntariado_PInt2s22/clases-java' element={<Clase_java />} />
+                            <Route exact path='/Voluntariado_PInt2s22/poo-java' element={<Poo_java />} />
+                            <Route exact path='/Voluntariado_PInt2s22/componente-java' element={<Componente_java />} />
+                            <Route exact path='/Voluntariado_PInt2s22/layout-java' element={<Layout_java />} />
+                            <Route exact path='/Voluntariado_PInt2s22/instalacion-python' element={<Instalacion_python />} />
+                            <Route exact path='/Voluntariado_PInt2s22/ides-python' element={<Ides_python />} />
+                            <Route exact path='/Voluntariado_PInt2s22/nocion-python' element={<Nocion_python />} />
+
+                        </Routes>
+                    </div>
+                </div>
       </header>
       
     </div>
