@@ -35,7 +35,7 @@ function App() {
                                         </svg> Java
                                     </a>
                                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="/instalacion-java">Instalación</a></li>
+                                        <li><Link class="dropdown-item"to="/Voluntariado_PInt2s22/instalacion-java">Instalación</Link></li>
                                         <li><a class="dropdown-item" href="/ides-java">IDES</a></li>
                                         <li>
                                             <a class="dropdown-item">
@@ -125,17 +125,8 @@ function App() {
                   <div class="container-fluid">
                       <br></br>
                       <Routes>
-                      <Route exact path='/instalacion-java' component={Instalacion} />
-            <Route path="https://kev27-fiusac.github.io/Voluntariado_PInt2s22/instalacion-java" element={<Instalacion />} />
-            <Route path="/ides-java" element={<Ides_Java />} />
-            <Route path="/ides-python" element={<Ides_python />} />
-            <Route path="/nocion-java" element={<Basico_java />} />
-            <Route path="/nocion-python" element={<Nocion_python />} />
-            <Route path="/clases-java" element={<Clase_java />} />
-            <Route path="/poo-java" element={<Poo_java />} />
-            <Route path="/componente-java" element={<Componente_java />} />
-            <Route path="/layout-java" element={<Layout_java />} />
-            <Route path="/instalacion-python" element={<Instalacion_python />} />
+                      <Route exact path='/Voluntariado_PInt2s22/instalacion-java' element={<Instalacion />} />
+           
           </Routes>
         </div>
       </div>
