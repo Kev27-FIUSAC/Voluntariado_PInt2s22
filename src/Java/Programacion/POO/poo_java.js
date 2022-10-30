@@ -1,5 +1,16 @@
 import React, { Component } from 'react';
 import './poo_java.css';
+import LibroPortada from './img/LibroPortadaD.png'
+import AbstraccionEjemplo from './img/Abstraccion_Ejemplo.png'
+import EncapsulamientoEjemplo from './img/Encapsulamiento_Ejemplo.png'
+import HerenciaEjemplo from './img/Herencia_Ejemplo.png'
+import PolimorfismoEjemplo from './img/Polimorfismo_Ejemplo.png'
+import PooClase from './img/POO_Clase.png'
+import PooClase1 from './img/POO_Clase1.png'
+import PooClase2 from './img/POO_Clase2.png'
+import PooInstancia from './img/POO_instancia.png'
+import PooInstancia1 from './img/POO_instancia1.png'
+import PooEjecucionPrograma from './img/POO_Ejecucion programa.png'
 
 export default class Poo_java extends Component {
     constructor(p) {
@@ -21,7 +32,7 @@ export default class Poo_java extends Component {
                                 <p class="card-text text-dark">
                                     A continuación puedes acceder a una carpeta con diversos libros que hemos recolectado a lo largo de los años, los cuales son de mucha utilidad para entender estos temas a profundidad.</p>
     
-                                    <p><img src="https://i.ibb.co/G0yzKbd/Libro-Portada-D.png" class="img-fluid" alt="Libro-Portada-D" border="0"/></p>
+                                    <p><img src={LibroPortada} class="img-fluid" alt="Libro-Portada-D" border="0"/></p>
                                     <a href="https://drive.google.com/drive/folders/1LvPYdOH4i4wIoK0kTm1_SVSZmRfi4cLy?usp=sharing" class="btn btn-outline-success btn-sm">Ver libros</a>
     
                                
@@ -91,7 +102,7 @@ export default class Poo_java extends Component {
                                     </ul>
                                     
                                     </p><br></br>
-                                    <img src="https://i.ibb.co/5MsXxwk/Abstracci-n-Ejemplo.png" class="img-fluid" alt="Abstracci-n-Ejemplo" border="0"/>
+                                    <img src={AbstraccionEjemplo} class="img-fluid" alt="Abstracci-n-Ejemplo" border="0"/>
                                 <br/>
                                 <br/>
                                 <h2>Encapsulamiento</h2>
@@ -108,7 +119,7 @@ export default class Poo_java extends Component {
                                     package private (valor por defecto si no se indica ninguno de los anteriores): solo las clases en
                                     el mismo paquete pueden acceder a la propiedad o método.
                                     </p><br/>
-                                    <img src="https://i.ibb.co/BLDyFFn/Encapsulamiento-Ejemplo.png" class="img-fluid" alt="Encapsulamiento-Ejemplo" border="0"/>
+                                    <img src={EncapsulamientoEjemplo} class="img-fluid" alt="Encapsulamiento-Ejemplo" border="0"/>
                                     <br/>
                                     <br/>
                                 <h2>Herencia</h2>
@@ -122,7 +133,7 @@ export default class Poo_java extends Component {
                                         <li>Es un mecanismo que nos permite crear clases derivadas a partir de clases base.</li>
                                     </ul>
                                     </p> <br/> <br/>
-                                    <img src="https://i.ibb.co/k69f3dG/Herencia-Ejemplo.png" alt="Herencia-Ejemplo" border="0"/>
+                                    <img src={HerenciaEjemplo} alt="Herencia-Ejemplo" border="0"/>
                                     <br/> <br/>
                                 <h2>Polimorfismo</h2>
                                 <p>Son comportamientos diferentes, asociados a objetos distintos, pueden compartir el mismo nombre;
@@ -135,28 +146,28 @@ export default class Poo_java extends Component {
                                     que se comunica cada uno de los animales,
                                     ya que el perro dice "Guau!" y el gato "Miau!".<br/>
                                     </p><br/>
-                                    <img src="https://i.ibb.co/GJM7vHN/Polimorfismo-Ejemplo.png" class="img-fluid" alt="Polimorfismo-Ejemplo" border="0"/>
+                                    <img src={PolimorfismoEjemplo} class="img-fluid" alt="Polimorfismo-Ejemplo" border="0"/>
     
                             <br/>
                             <p class="text-white ">Esta es la clase Persona con sus atributos y metodos.<br/></p>
-                            <img src="https://i.ibb.co/wcjHbwX/POO-Clase.png" class="img-fluid" alt="POO-Clase" border="0"/>
+                            <img src={PooClase} class="img-fluid" alt="POO-Clase" border="0"/>
                             <br/><br/>
-                            <img src="https://i.ibb.co/nDVB2nG/POO-Clase1.png" class="img-fluid" alt="POO-Clase1" border="0"/>
+                            <img src={PooClase1} class="img-fluid" alt="POO-Clase1" border="0"/>
                             <br/><br/>
-                            <img src="https://i.ibb.co/TK73HPJ/POO-Clase2.png" class="img-fluid" alt="POO-Clase2" border="0"/>
+                            <img src={PooClase2} class="img-fluid" alt="POO-Clase2" border="0"/>
                             <br/>
                             <br/>
                             <p class="text-white ">Esta es la forma en la que se declaran las instancias para crear un
                                 objeto.</p>
-                                <img src="https://i.ibb.co/KLvYgzS/POO-instancia.png" class="img-fluid" alt="POO-instancia" border="0"/>
+                                <img src={PooInstancia} class="img-fluid" alt="POO-instancia" border="0"/>
                             <br/><br/>
-                            <img src="https://i.ibb.co/KrFjHmD/POO-instancia1.png" class="img-fluid" alt="POO-instancia1" border="0"/>
+                            <img src={PooInstancia1} class="img-fluid" alt="POO-instancia1" border="0"/>
                             </div>
                             <br/>
                             <br/>
                             <p class="text-white ">El resultado del programa anterior se muestra en la siguiente imagen, en la cual la Persona 1 hace referencia a la forma de trabajar las primeras instancias y la Persona 2 hace referencia a otra forma de trabajar las instancias y en cada caso el resultado será el mismo pero con diferentes datos.</p>
                             <br/>
-                            <img src="https://i.ibb.co/hCQGxfW/POO-Ejecuci-n-programa.png" alt="POO-Ejecuci-n-programa" border="0"/>
+                            <img src={PooEjecucionPrograma} alt="POO-Ejecuci-n-programa" border="0"/>
                             <br/>
                             <br/>
                             <br/>

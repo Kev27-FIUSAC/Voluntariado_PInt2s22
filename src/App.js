@@ -12,6 +12,7 @@ import Layout_java from './Java/Programacion/Interfaz/Layouts/layout_java';
 import Instalacion_python from './Python/Instalacion/instalacion_python';
 import Ides_python from './Python/Ides/Ides_python';
 import Nocion_python from './Python/Programacion/Nociones/nocion_python';
+import Reservadas_python from './Python/Programacion/Reservadas/reservadas_python';
 import { Link, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -36,7 +37,7 @@ function App() {
                                     </a>
                                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
                                         <li><Link class="dropdown-item"to="/Voluntariado_PInt2s22/instalacion-java">Instalación</Link></li>
-                                        <li><Link class="dropdown-item"to="/Voluntariado_PInt2s22/ides-java">Instalación</Link></li>
+                                        <li><Link class="dropdown-item"to="/Voluntariado_PInt2s22/ides-java">IDEs y Editores de texto</Link></li>
                                         <li>
                                             <a class="dropdown-item">
                                                 Programación <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -114,7 +115,7 @@ function App() {
                                                         <Link class="dropdown-item"to="/Voluntariado_PInt2s22/reservadas-python">Palabras Reservadas</Link>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="Python/python-flask.html">Flask </a>
+                                                    
                                                     <Link class="dropdown-item"to="/Voluntariado_PInt2s22/flask">Flask</Link>
                                                 </li>
                                             </ul>
@@ -139,7 +140,7 @@ function App() {
                             <Route exact path='/Voluntariado_PInt2s22/instalacion-python' element={<Instalacion_python />} />
                             <Route exact path='/Voluntariado_PInt2s22/ides-python' element={<Ides_python />} />
                             <Route exact path='/Voluntariado_PInt2s22/nocion-python' element={<Nocion_python />} />
-
+                            <Route exact path='/Voluntariado_PInt2s22/reservadas-python' element={<Reservadas_python/>} />
                         </Routes>
                     </div>
                 </div>
