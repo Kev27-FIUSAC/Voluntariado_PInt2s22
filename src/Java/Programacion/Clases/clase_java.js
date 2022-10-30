@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './clase_java.css';
+import JsonSimple from './img/JsonSimple.png'
+import ClasePersona from './img/Clase_Persona.png'
 
 export default class Clase_java extends Component {
     constructor(p) {
@@ -133,7 +135,7 @@ export default class Clase_java extends Component {
     
                         <h4 id="Math-class-list">CLASE MATH EN FUNCIONES TRIGONOMETRICAS</h4>
                         <label>De igual forma para lo que es las funciones trigonométricas como pasar de radianes a grados o
-                            de grados a radianes utilizando lo que es la clase math podemos calcular “cos, sen y tan”, en el
+                            de grados a radianes utilizando lo que es la clase math podemos calcular “cos, sen y tan", en el
                             siguiente ejemplo se muestra de como pasar de grados a radianes como bien sabemos para pasar a
                             radianes se debe multiplicar el grado que tenemos por ( π/180) o también (2π/360).</label>
                         
@@ -147,23 +149,23 @@ export default class Clase_java extends Component {
     
                         <h4 id="Math-class-list">CLASE MATH EN POTENCIA Y RAIZ CUADRADA</h4>
                         <label>De igual forma nos ayuda para a elevar un número a cualquier número como al cuadrado de igual
-                            forma sacar la raíz de un número, únicamente usando funciones como “Math.pow” para potenciar un
-                            número y “Math.sqrt” para sacar la raíz cuadrada de un número. </label>
+                            forma sacar la raíz de un número, únicamente usando funciones como “Math.pow" para potenciar un
+                            número y “Math.sqrt" para sacar la raíz cuadrada de un número. </label>
                         
                             <img src="https://i.ibb.co/2jzPJny/Clase-math-Potencia-raiz.png" class="img-fluid" alt="Clase-math-Potencia-raiz" border="0"/>
                        
     
                         <h4 id="Math-class-list">CLASE MATH EN APROXIMACION</h4>
                         <label>Para expresar un número y aproximar un número a los decimales que nosotros deseemos se
-                            utiliza la siguiente función “around”, de igual forma de como de elegir cuantos decimales
-                            queremos sin la necesidad de aproximar se utiliza la función “floor” como por ejemplo:
+                            utiliza la siguiente función “around", de igual forma de como de elegir cuantos decimales
+                            queremos sin la necesidad de aproximar se utiliza la función “floor" como por ejemplo:
                             </label>
                         
                             <img src="https://i.ibb.co/Nx6FxnJ/Clase-math-Aproximacion.png" class="img-fluid" alt="Clase-math-Aproximacion" border="0"/>
                         
     
                         <h4 id="Math-class-list">CLASE MATH EN NUMEROS RANDOM</h4>
-                        <label>De igual forma la clase Math nos permite por medio de una función llamada “Random” en el cual
+                        <label>De igual forma la clase Math nos permite por medio de una función llamada “Random" en el cual
                             como lo dice su nombre para implementar números variados como por ejemplo: </label>
                         
                             <img src="https://i.ibb.co/CKRH4cR/Clase-math-random.png" class="img-fluid" alt="Clase-math-random" border="0"/>
@@ -180,9 +182,9 @@ export default class Clase_java extends Component {
                                 celular… entre muchas otras cosas que el usuario tendrá que escribir desde el teclado y
                                 almacenando la información que ingrese el usuario, siempre teniendo en cuenta que tipo de
                                 información le estaremos solicitando como lo es su nombre declarar la variable donde estará
-                                almacenada como de tipo “String” o números en este caso “int”, de igual forma si son notas
-                                de sus clases ya declarar de tipo “Double”. Para llamar esta clase primero debemos importar
-                                la librería Scanner como “import java.util.Scanner” y se debe de crear un objeto donde
+                                almacenada como de tipo “String" o números en este caso “int", de igual forma si son notas
+                                de sus clases ya declarar de tipo “Double". Para llamar esta clase primero debemos importar
+                                la librería Scanner como “import java.util.Scanner" y se debe de crear un objeto donde
                                 tendrán los tipos de datos que le pediremos al usuario como por ejemplo:
                         </label>
                         
@@ -195,14 +197,14 @@ export default class Clase_java extends Component {
                         <h4 id="Gson-class-list">CLASE CALENDAR</h4>
                         <p>
                             <label>Principalmente para usar esta clase debemos de importar la siguiente librería “import
-                                java.util.Calendar” y como es una clase abstracta no necesariamente debe iniciar con “new”
+                                java.util.Calendar" y como es una clase abstracta no necesariamente debe iniciar con “new"
                                 porque no tiene un cuerpo como tal como los objetos y es un método que no será ejecutado
                                 únicamente hace referencia a otros métodos de las subclases, como por ejemplo crearemos
-                                métodos “SimpleDateFormat(“dd-MMM-yyyy”)” para ya tener una estructura y otros método que
-                                usaremos es el “GregorianCalendar()” para obtener la información de la fecha actual,
+                                métodos “SimpleDateFormat(“dd-MMM-yyyy")" para ya tener una estructura y otros método que
+                                usaremos es el “GregorianCalendar()" para obtener la información de la fecha actual,
                                 recordande que el tipo Calendar contiene el Date para obtener la información con “Date fecha
-                                = calendar.getTime” por el set obtiene los valores en el date y getTime obtener la fecha de
-                                igual forma recordando que los meses en java empiezan en 0 por lo cual “0 = Enero”. Ejemplo:
+                                = calendar.getTime" por el set obtiene los valores en el date y getTime obtener la fecha de
+                                igual forma recordando que los meses en java empiezan en 0 por lo cual “0 = Enero". Ejemplo:
                         </label>
                      
     
@@ -216,10 +218,10 @@ export default class Clase_java extends Component {
     
                             <label>Representa un fichero, nos proporciona información acerca de los archivos de los
                                 atributos y directorios, de igual forma la clase File tiene constructores que son los
-                                siguientes: “File(String path)”, “File(String path, String name)”, “File(File dir, String
-                                name)” de igual forma parámetros como “String getName()”, “String getPath()”, “String
-                                getAbsolutePath()” son los mas usados principalmente cuando manejamos la clase File, el
-                                parámetro “Path” indica el camino hacia el directorio donde se encuentre el archivo, “name”
+                                siguientes: “File(String path)", “File(String path, String name)", “File(File dir, String
+                                name)" de igual forma parámetros como “String getName()", “String getPath()", “String
+                                getAbsolutePath()" son los mas usados principalmente cuando manejamos la clase File, el
+                                parámetro “Path" indica el camino hacia el directorio donde se encuentre el archivo, “name"
                                 indica el nombre del archivo.
                         </label>
                         
@@ -254,7 +256,7 @@ export default class Clase_java extends Component {
                         <br></br>
                         <br></br>
                         Una vez tengas hecho lo anterior, veamos como usarlo:
-                        <img src="https://i.ibb.co/L5GNjRX/Json-Simple.png"  class="img-fluid" alt="Json-Simple" border="0"/>
+                        <img src={JsonSimple} class="img-fluid" alt="Json-Simple" border="0"/>
                         Analizar este codigo es la oportunidad perfecta de entender un poco 
                         la programación orientada a objetos:<br></br>
                         <br></br>
@@ -268,7 +270,7 @@ export default class Clase_java extends Component {
                         almacenar nuestra colección de objetos que convertimos con nuestro traductor. 
                         <br></br>
                         La clase Persona utilizada para este ejemplo es la siguiente:
-                        <img src="https://i.ibb.co/LSLLHzC/Clase-Persona.png" class="img-fluid" alt="Clase-Persona" border="0"/>
+                        <img src={ClasePersona} class="img-fluid" alt="Clase-Persona" border="0"/>
                         Observa el constructor de la clase Persona y también observa como utilizamos 
                         ese constructor dentro del ejemplo de Json Simple, se encuentra hasta abajo de la imagen.<br></br>
                         
